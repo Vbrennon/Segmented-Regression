@@ -73,7 +73,7 @@ Finally, this option will end the program. The program will copy your data into 
 
 [os package](https://docs.python.org/3/library/os.html)
 
-[pandas packages](https://pandas.pydata.org/pandas-docs/stable/)
+[pandas package](https://pandas.pydata.org/pandas-docs/stable/)
 
 [matplotlib package](https://matplotlib.org/stable/users/index)
 
