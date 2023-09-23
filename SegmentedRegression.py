@@ -94,6 +94,7 @@ def main():
             # is used threading to start seg reg at the same time otherwise, it won't open until you close pywrite
             if answer == 'y':
                 # allows SegReg to be opened at the same time as Pywrit
+                print('\nThis may take a few seconds...')
                 s = th.Thread(target=segreg)
                 s.start()
                 # opens Pywrit
