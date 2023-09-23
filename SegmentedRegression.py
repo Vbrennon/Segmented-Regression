@@ -21,7 +21,7 @@ def main():
         try:
             # Asks user for file name, then runs for loop to find filename in C: (or whatever you named it)
             file = input('Please enter a file name (including file extension): ')
-            print('This may take a few seconds...')
+            print('\nThis may take a few seconds...')
             for root, dirs, files in os.walk('/'):
                 for i in files:
                     if i == file:
