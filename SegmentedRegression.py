@@ -21,7 +21,7 @@ def main():
         try:
             # Asks user for file name, then runs for loop to find filename in C: (or whatever you named it)
             file = input('Please enter a file name (including file extension): ')
-            print('This may take a few seconds...')
+            print('\nThis may take a few seconds...')
             for root, dirs, files in os.walk('/'):
                 for i in files:
                     if i == file:
@@ -94,6 +94,7 @@ def main():
             # is used threading to start seg reg at the same time otherwise, it won't open until you close pywrite
             if answer == 'y':
                 # allows SegReg to be opened at the same time as Pywrit
+                print('\nThis may take a few seconds...')
                 s = th.Thread(target=segreg)
                 s.start()
                 # opens Pywrit

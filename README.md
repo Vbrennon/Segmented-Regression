@@ -27,7 +27,7 @@ The program is designed to take an Excel file containing the age and brain size 
 
 ## Program walk-through:
 <b>Launch Program:</b> 
-Just download the executable file and the test file and run it. It may take a few seconds.  
+Just download the executable file and the test file and run it. It may take a few seconds. Ensure you download SegReg and put it int he same drive as my executable!!!
 
 <b>Step 1:</b>  
 The program will ask you to input the file (AnthPy.xlsx) and then ask if you want to consolidate the data. You might want to do this if the data you have is heteroscedastic (it disperses more as X increases.) Homoscedasticity is one of the requirements outlined by Villamoare & Grabowski (2022) in order for Segmented Regression to work.
