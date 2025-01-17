@@ -1,7 +1,7 @@
 <h1>Statistical Analysis of Homo Sapien Brain Size</h1>
 
 ## Description
-The program is designed to take an Excel file containing the age and brain size of hundreds of Homo sapiens specimens and perform various statistical analyses on the dataset. This program was specifically to test Villamoare and Grabowski (2022), who were, in turn, testing DeSilva et al. (2021). As such, this program is not meant to be downloaded and used. It's simply to showcase my abilities in Data Analysis using Python. However, I have decided to leave the Python file and a sample Excel file for anyone interested  in testing the program's capabilities for themselves. It should be noted that you need to download the SegReg (linked below) application for you to use all of this program's available features.
+The program is designed to take an Excel file containing the age and brain size of hundreds of Homo sapiens specimens and perform various statistical analyses on the dataset. I created this program specifically to test Villamoare and Grabowski (2022), who were, in turn, testing DeSilva et al. (2021). As such, this program is not meant to be downloaded and used. However, I have decided to upload the py file and the test Excel file for anyone interested  in testing the program's capabilities for themselves. You need to download the SegReg (linked below) application to use all of this program's available features.
 
 ## Languages and Utilities Used
 
@@ -27,7 +27,7 @@ The program is designed to take an Excel file containing the age and brain size 
 
 ## Program walk-through:
 <b>Launch Program:</b> 
-Just download the executable file and the test file and run it. It may take a few seconds. Ensure you download SegReg and put it int he same drive as my executable!!!
+Just download the executable file and the test file and run them. It may take a few seconds. Ensure you download SegReg and put it on the same drive as my executable!
 
 <b>Step 1:</b>  
 The program will ask you to input the file (AnthPy.xlsx) and then ask if you want to consolidate the data. You might want to do this if the data you have is heteroscedastic (it disperses more as X increases.) Homoscedasticity is one of the requirements outlined by Villamoare & Grabowski (2022) in order for Segmented Regression to work.
